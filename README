@@ -1,0 +1,26 @@
+BTN API module
+
+A simple python json-rpc wrapper for BTN API calls.
+
+On first import of this module, a configuration file 
+will be created in ~/.config/btn-api.  Pleas edit 
+the this file with your API key.
+
+
+Install:
+============
+
+ # python setup.py install
+
+
+Usage:
+===========
+
+ % python
+ >>> import btnapi
+ >>> user = btnapi.userInfo()
+ >>> print user['Username']
+missionsix
+
+
+
