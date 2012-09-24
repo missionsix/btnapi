@@ -105,7 +105,6 @@ class BtnApi:
             raise BTNAPIException(500, 'Invalid Response from server.')
 
         if 'error' in response:
-            print response
             raise BTNAPIException(response['error']['code'],
                                   response['error']['message'])
 
