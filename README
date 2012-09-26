@@ -21,6 +21,7 @@ Usage:
  >>> user = btnapi.userInfo()
  >>> print user['Username']
 missionsix
-
-
-
+ >>>
+ >>> changelog = btnap.getChangeLog()
+ >>> print changelog[0]['Changes']
+ Test
