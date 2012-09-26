@@ -5,7 +5,7 @@ import sys
 
 from pprint import pprint
 
-API_KEY = '71fa9e15febd904c64d1a6ba770a345a'
+API_KEY = 'YOUR API KEY'
 
 class TestAPIRequest(unittest.TestCase):
 
