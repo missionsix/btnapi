@@ -3,7 +3,7 @@ BTN API module
 A simple python json-rpc wrapper for BTN API calls.
 
 On first import of this module, a configuration file 
-will be created in ~/.config/btn-api.  Pleas edit 
+will be created in ~/.config/btn-api.  Please edit 
 the this file with your API key.
 
 
