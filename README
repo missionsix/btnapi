@@ -25,3 +25,14 @@ missionsix
  >>> changelog = btnap.getChangeLog()
  >>> print changelog[0]['Changes']
  Test
+
+Methods:
+============
+
+btnapi simply wraps the methods calls on the remote side.  So all methods called
+on btnapi will be wrapped and called to the API server.  Available methods can be
+found here:
+
+http://btnapps.net/apigen/class-btnapi.html
+
+
